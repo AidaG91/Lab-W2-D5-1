@@ -9,32 +9,33 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+#BBC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .BBC_Logo {
   display: flex;
   flex-wrap: nowrap;
   align-content: center;
   justify-content: center;
-  background-color: white;
+  gap: 10px;
 }
 
-.BBC_1 {
-  background-color: black;
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
-  width: 1.5em;
-  height: 1.5em;
-}
-
-.BBC_2 {
-  background-color: black;
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
-}
+.BBC_1,
+.BBC_2,
 .BBC_3 {
-  background-color: black;
-  color: white;
-  font-weight: bold;
-  font-size: 30px;
+ background-color: black; 
+  color: white; 
+  font-weight: bold; 
+  font-size: 30px; 
+  width: 1.5em; 
+  height: 1.5em; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
+
+
+/* https://www.bbc.com/culture/film-tv */
