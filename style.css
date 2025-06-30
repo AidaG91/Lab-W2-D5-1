@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.BBC_Logo {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.BBC_1 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.BBC_2 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.BBC_3 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
