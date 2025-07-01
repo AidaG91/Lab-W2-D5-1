@@ -39,6 +39,7 @@ h3 {
   font-size: 16px;
   line-height: 1em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 h4 {
@@ -156,5 +157,50 @@ h4 {
   background-color: rgb(39, 39, 39);
   color: white;
   cursor: pointer;
+}
+
+#latestHeadlines {
+  margin-top: 1em;
+}
+.latestHeadlines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
+
+.latestHeadlines-noticia {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+  max-width: 200px;
+  margin: 10px;
+}
+
+.latestHeadlines-noticia a {
+  text-decoration: none;
+  color: black;
+}
+
+.latestHeadlines-noticia h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.latestHeadlines-noticia h4:hover {
+  text-decoration: underline;
+}
+
+.latestHeadlines-noticia p {
+  font-size: 10px;
+  padding-top: 20px;
+  line-height: 1em;
 }
 /* https://www.bbc.com/culture/film-tv */
