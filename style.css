@@ -43,11 +43,24 @@ h3 {
 }
 
 h4 {
-  font-size: 16px;
   letter-spacing: 0.4px;
   line-height: 1em;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: black;
 }
 
+h4:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.4;
+  padding-top: 10px;
+}
 #BBC {
   display: flex;
   justify-content: center;
@@ -130,10 +143,6 @@ h4 {
   margin-block: 20px;
 }
 
-.noticiaPrincipal-texto p {
-  font-size: 14px;
-}
-
 .separadorContenido {
   width: 100%;
   border: none;
@@ -159,9 +168,10 @@ h4 {
   cursor: pointer;
 }
 
-#latestHeadlines {
+section {
   margin-top: 1em;
 }
+
 .latestHeadlines {
   display: flex;
   flex-direction: row;
@@ -181,7 +191,6 @@ h4 {
   align-items: flex-start;
   flex: 1;
   max-width: 200px;
-  margin: 10px;
 }
 
 .latestHeadlines-noticia a {
@@ -189,16 +198,66 @@ h4 {
   color: black;
 }
 
-.latestHeadlines-noticia h4 {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.latestHeadlines-noticia h4:hover {
-  text-decoration: underline;
-}
-
 .latestHeadlines-noticia p {
+  font-size: 10px;
+  padding-top: 20px;
+  line-height: 1em;
+}
+
+.watchList-global {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 1em;
+}
+
+.watchList-individual {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 300px;
+}
+.watchList-individual img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.watchList-individual a {
+  text-decoration: none;
+  color: black;
+}
+
+.watchList-individual p.horaSeccion {
+  font-size: 10px;
+  padding-top: 20px;
+  line-height: 1em;
+}
+
+.extraNews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: start;
+  align-items: start;
+  gap: 20px;
+}
+
+.extraNews img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.extraNews a {
+  text-decoration: none;
+}
+
+.extraNews p.horaSeccion {
   font-size: 10px;
   padding-top: 20px;
   line-height: 1em;
